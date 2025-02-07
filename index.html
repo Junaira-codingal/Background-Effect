@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello, World</title>
+
+    <style>
+      body {
+        background-color: rosybrown;
+        background-image: url("https://images-cdn.ubuy.co.in/635d002fc30c3224ee29fd56-squid-game-tv-show-poster-frontman.jpg");
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-attachment: fixed;
+        background-size: 150px;
+      }
+      #grad1 {
+        height: 200px;
+        background-color: red;
+
+        background-image: linear-gradient(
+          to top right,
+          white,
+          lavender,
+          plum,
+          blueviolet,
+          lightblue
+        );
+        text-align: center;
+        margin: auto;
+        margin-top: 200px;
+        color: black;
+        font-size: 40px;
+        font-weight: bold;
+      }
+      @keyframes meena {
+        0% {
+          background-color: crimson;
+        }
+        25% {
+          background-color: rgb(220, 85, 112);
+        }
+        50% {
+          background-color: rgb(222, 158, 171);
+        }
+        75% {
+          background-color: rgb(216, 164, 174);
+        }
+        100% {
+          background-color: crimson;
+        }
+      }
+
+      .animation {
+        width: 600px;
+        height: 300px;
+        background-color: crimson;
+        animation-name: meena;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Hello World</h3>
+    <div id="grad1">Welcome To Codingal</div>
+
+    <div class="animation">Hello Friends</div>
+  </body>
+</html>
